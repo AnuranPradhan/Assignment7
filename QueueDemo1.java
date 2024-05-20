@@ -32,7 +32,7 @@ public static void display(int data[]) {
 	if(isEmpty(data)) {
 		System.out.println("Queue is empty");
 	}
-	System.out.println("The Elements of Queue are");
+	System.out.println("The Elements of Queue are:");
 	for(int i=front;i<=rear;i++) {
 		System.out.print(data[i]+" ");
 	}
