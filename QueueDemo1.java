@@ -2,9 +2,9 @@ package Assignment7;
 import java.util.Scanner;
 public class QueueDemo1 {
 	static Scanner sc =new Scanner(System.in);
-private static final int MAX=5;
-static int front=-1;
-static int rear=-1;
+public static final int MAX=5;
+public static int front=-1;
+public static int rear=-1;
 public static boolean isFull(int data[]) {
 	return (rear==data.length-1);
 }
