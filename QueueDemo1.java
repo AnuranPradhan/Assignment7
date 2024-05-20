@@ -2,7 +2,7 @@ package Assignment7;
 import java.util.Scanner;
 public class QueueDemo1 {
 	static Scanner sc =new Scanner(System.in);
-private static final int MAX=10;
+private static final int MAX=5;
 static int front=-1;
 static int rear=-1;
 public static boolean isFull(int data[]) {
