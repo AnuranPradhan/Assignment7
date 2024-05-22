@@ -27,6 +27,7 @@ public static void delete(int data[]) {
 		System.out.println("Queue is empty");
 	}
 	int delete =data[++front];
+System.out.println("deleted data is"+delete);
 }
 public static void display(int data[]) {
 	if(isEmpty(data)) {
