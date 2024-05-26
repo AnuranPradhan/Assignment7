@@ -26,10 +26,9 @@ public static Node insert(Node rear,Node front) {
 public static Node delete(Node rear,Node front) {
 	if(front==null) {
 		System.out.println("Queue is Empty");
-	}
-	front=front.next;
-	if(front==null) {
-		rear=front;
+rear=front;
+	}else{
+front=front.next;
 	}
 	return front;
 }
