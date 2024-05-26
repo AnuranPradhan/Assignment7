@@ -25,13 +25,14 @@ public static void insert(int data[]) {
 public static void delete(int data[]) {
 	if(isEmpty(data)) {
 		System.out.println("Queue is empty");
+		return;
 	}
-	int delete =data[front++];
-System.out.println("deleted data is"+delete);
+	System.out.println("Deleted data is"+data[front++]);
 }
 public static void display(int data[]) {
 	if(isEmpty(data)) {
 		System.out.println("Queue is empty");
+		return;
 	}
 	System.out.println("The Elements of Queue are:");
 	for(int i=front;i<=rear;i++) {
