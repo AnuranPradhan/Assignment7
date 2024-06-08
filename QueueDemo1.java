@@ -12,15 +12,16 @@ public static  boolean isEmpty(int data[]) {
 	return (rear==-1);
 }
 public static void insert(int data[]) {
-	System.out.println("Enter the element");
-	int item=sc.nextInt();
 	if(isFull(data)) {
 		System.out.println("Queue is full");
-	}else{
-		if(front==-1) {
-		front=0;
-	}
-	data[++rear]=item;
+	}else {
+		System.out.println("Enter the Element: ");
+        int x = sc.nextInt();
+        data[++rear] =x;
+        System.out.println("Data inserted: "+x);
+        if(front==-1){
+            front = front+1;
+        }
 	}
 }
 public static void delete(int data[]) {
