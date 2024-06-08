@@ -18,9 +18,10 @@ public static Node insert(Node rear,Node front) {
 	Node node =new Node(item);
 	if(front==null) {
 		front=rear=node;
-	}
+	}else{
 	rear.next=node;
 	rear=node;
+}
 	return rear;
 }
 public static Node delete(Node rear,Node front) {
