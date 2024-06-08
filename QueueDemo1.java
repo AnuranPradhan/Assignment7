@@ -16,11 +16,12 @@ public static void insert(int data[]) {
 	int item=sc.nextInt();
 	if(isFull(data)) {
 		System.out.println("Queue is full");
-	}
-	if(front==-1) {
+	}else{
+		if(front==-1) {
 		front=0;
 	}
 	data[++rear]=item;
+	}
 }
 public static void delete(int data[]) {
 	if(isEmpty(data)) {
