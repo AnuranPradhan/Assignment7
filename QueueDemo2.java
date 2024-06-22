@@ -30,6 +30,8 @@ public static Node delete(Node rear,Node front) {
 rear=front;
 	}else{
 front=front.next;
+if(front==null){
+rear=null;
 	}
 	return front;
 }
